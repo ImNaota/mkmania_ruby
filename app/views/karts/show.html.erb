@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @kart %>
+
+<div>
+  <%= link_to "Edit this kart", edit_kart_path(@kart) %> |
+  <%= link_to "Back to karts", karts_path %>
+
+  <%= button_to "Destroy this kart", @kart, method: :delete %>
+</div>
