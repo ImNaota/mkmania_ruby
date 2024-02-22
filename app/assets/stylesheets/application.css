@@ -48,3 +48,19 @@ footer p{
     margin: 2px;
     text-align: center;
 }
+
+.p-0 {
+    padding: 0 !important;
+}
+.justify-content-evenly {
+    justify-content: space-evenly !important;
+}
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+.d-flex {
+    display: flex !important;
+}
+/*@media (min-width: 992px), */.container-lg, .container-md, .container-sm, .container {
+    max-width: 960px;
+}
