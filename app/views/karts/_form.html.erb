@@ -1,0 +1,47 @@
+<%= form_with(model: kart) do |form| %>
+  <% if kart.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(kart.errors.count, "error") %> prohibited this kart from being saved:</h2>
+
+      <ul>
+        <% kart.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :size, style: "display: block" %>
+    <%= form.text_field :size %>
+  </div>
+
+  <div>
+    <%= form.label :color, style: "display: block" %>
+    <%= form.text_field :color %>
+  </div>
+
+  <div>
+    <%= form.label :speed, style: "display: block" %>
+    <%= form.text_field :speed %>
+  </div>
+
+  <div>
+    <%= form.label :maneuverability, style: "display: block" %>
+    <%= form.text_field :maneuverability %>
+  </div>
+
+  <div>
+    <%= form.label :description, style: "display: block" %>
+    <%= form.text_area :description %>
+  </div>
+
+  <div>
+    <%= form.label :image, style: "display: block" %>
+    <%= form.text_area :image %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
