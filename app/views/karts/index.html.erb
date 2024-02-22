@@ -11,10 +11,7 @@
 
 <div id="karts">
   <% @karts.each do |kart| %>
-    <%= render kart %>
-    <p>
-      <%= link_to "Show this kart", kart %>
-    </p>
+    <%= link_to "Show this kart", <%= render kart %> %>
   <% end %>
 </div>
 
