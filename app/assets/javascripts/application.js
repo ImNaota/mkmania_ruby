@@ -1,8 +1,14 @@
 // app/assets/javascripts/application.js
+//= require jquery
+//= require jquery_ujs
+//= require turbolinks
+//= require_tree .
+//= require script
+//= require_self
 
-document.addEventListener('DOMContentLoaded', function() {
-    var imageFooter = document.getElementById('imageFooter'); 
-    imageFooter.addEventListener('click', function() {
-      document.body.classList.toggle('gradient-background');
-    });
-  });
+// app/assets/javascripts/application.js
+import 'rails-ujs';
+import 'turbolinks';
+import 'jquery';
+import 'jquery-ujs';
+import 'script';
