@@ -69,10 +69,7 @@ footer p{
   }
 
 a{
-    padding-top:5%;
-    padding-bottom:5%;
-    padding-left:2%;
-    padding-right:2%;
+    padding: 1em;
     background-color: #0038FF;
     text-decoration: none;
     border-radius: 15px;
@@ -144,4 +141,8 @@ form{
 
 .kart_image{
     width: 75%;
+}
+
+.phrase_accroche{
+    margin-bottom: 4em;
 }
