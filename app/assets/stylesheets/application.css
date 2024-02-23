@@ -54,8 +54,8 @@ footer p{
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 20px;
     padding: 20px;
-    width: 80%;
-    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #karts div {
