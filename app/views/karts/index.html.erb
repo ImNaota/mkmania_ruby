@@ -1,9 +1,7 @@
 <p style="color: green"><%= notice %></p>
 
 <header>
-<a href="index.html">
-  <%= image_tag('logo.png') %>
-</a>
+<%= image_tag('logo.png') %>
 </header>
 <div class="phrase_accroche">
 <h2>Vous avez encore des doutes sur le choix de votre véhicule sur Mario Kart ? Aucun problème ! Mkmania est la réponse à tout vos problèmes existentiels.</h2>
@@ -11,11 +9,11 @@
 
 <div id="karts">
  <% @karts.each do |kart| %>
-  <div>
+  <div class="voiture">
   <%= render kart %>
-  <%= link_to "Show this kart", kart %>
+  <p class="liens_ruby"><%= link_to "Show this kart", kart %></p>
   </div>
 <% end %>
 </div>
 
-<%= link_to "New kart", new_kart_path %>
+<p class="liens_ruby"><%= link_to "New kart", new_kart_path %></p>
