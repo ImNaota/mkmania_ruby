@@ -50,8 +50,27 @@ footer p{
 }
 
 #karts{
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
+
+#karts div {
+    width: 48%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+#karts img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  
+#karts p {
+    margin: 10px 0;
+  }
 
 .p-0 {
     padding: 0 !important;
