@@ -1,18 +1,28 @@
 <div id="<%= dom_id kart %>">
   <p>
-  <strong>Nom du Kart:</strong>
-  <%= kart.size %>
-  </p>
-  
-  <p>
   <img src="<%= kart.image %>">
   </p>
-
-  <p>
-    <strong>Description du kart:</strong>
+  <div>
+    <p>
+    <strong>Nom du Kart:</strong>
+    <%= kart.size %>
+    </p>
+    <p>
+    <strong>Vitesse:</strong>
+    <%= kart.speed %>
+    </p>
+    <p>
+    <strong>Maniabilité:</strong>
+    <%= kart.maneuverability %>
+    </p>
+    <p>
+    <strong>Couleur:</strong>
+    <%= kart.color %>
+    </p>
+    <p>
+    <strong>Description:</strong>
     <%= kart.description %>
-  </p>
-
- 
-
+    </p>
+  </div>
+  
 </div>
