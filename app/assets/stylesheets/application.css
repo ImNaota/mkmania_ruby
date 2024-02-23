@@ -105,11 +105,14 @@ input, textarea {
     background-color: rgba(0, 56, 255, 0.1);
     border: 1px solid #0038FF;
     border-radius: 15px;
-    padding: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
     margin-top: 1%;
     margin-bottom: 3%;
     color: black;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 form{
