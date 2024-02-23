@@ -56,14 +56,20 @@ footer p{
     padding: 20px;
     margin-left: 10%;
     margin-right: 10%;
+    width: 80%;
 }
 
-#karts div {
+.voiture{
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+    margin: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
   
 #karts img {
     width: 100%;
@@ -76,3 +82,16 @@ footer p{
     margin: 0;
     padding: 10px;
   }
+
+a{
+    padding: 5px;
+    background-color: #0038FF;
+    text-decoration: none;
+    border: 2px solid #001b7b;
+    border-radius: 15px;
+    color:white;
+  }
+
+.liens_ruby{
+    text-align: center;
+}
