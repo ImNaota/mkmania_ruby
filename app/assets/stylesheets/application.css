@@ -99,3 +99,15 @@ a{
 .goofy{
     background-color: none;
 }
+
+h1{
+    text-align: center;
+}
+
+input{
+    background-color: #0038FF;
+    opacity: 20%;
+    border: #0038FF;
+    border-radius: 15px;
+    margin: 5%;
+}
