@@ -122,7 +122,7 @@ form{
 
 /*     SHOW      */
 
-.dom_id{
+.show_shpoink{
     display: flex;
 }
 
@@ -133,6 +133,6 @@ form{
     margin: 10%;
 }
 
-.kart.image{
+.kart_image{
     width: 75%;
 }
