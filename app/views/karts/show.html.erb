@@ -1,35 +1,37 @@
 <p style="color: green"><%= notice %></p>
 
+<%= render @kart %>
+
 
 <section class="show_desc">
-    <div class="image_show">
-        <%= form.label :image, style: "display: block" %>
-        <%= form.text_area :image %>
-    </div>
+  <div class="image_show">
+    <%= form.label :image, style: "display: block" %>
+    <%= form.text_area :image %>
+  </div>
+  <div>
     <div>
-        <div>
-            <%= form.label :color, style: "display: block" %>
-            <%= form.text_field :color %>
-        </div>
-
-        <div>
-            <%= form.label :speed, style: "display: block" %>
-            <%= form.text_field :speed %>
-        </div>
-
-        <div>
-            <%= form.label :maneuverability, style: "display: block" %>
-            <%= form.text_field :maneuverability %>
-        </div>
-
-        <div>
-            <%= form.label :description, style: "display: block" %>
-            <%= form.text_area :description %>
-        </div>
+      <%= form.label :color, style: "display: block" %>
+      <%= form.text_field :color %>
     </div>
+
+    <div>
+      <%= form.label :speed, style: "display: block" %>
+      <%= form.text_field :speed %>
+    </div>
+
+    <div>
+      <%= form.label :maneuverability, style: "display: block" %>
+      <%= form.text_field :maneuverability %>
+    </div>
+
+    <div>
+      <%= form.label :description, style: "display: block" %>
+      <%= form.text_area :description %>
+    </div>
+  </div>
 </section>
 
-<div class="show_options">
+<div>
   <%= link_to "Edit this kart", edit_kart_path(@kart) %> |
   <%= link_to "Back to karts", karts_path %>
 
