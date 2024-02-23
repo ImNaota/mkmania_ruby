@@ -69,12 +69,15 @@ footer p{
   }
 
 a{
-    padding: 5px;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left:2%;
+    padding-right:2%;
     background-color: #0038FF;
     text-decoration: none;
-    border: 2px solid #001b7b;
     border-radius: 15px;
     color:white;
+    font-size: 20px;
   }
 
 .liens_ruby{
