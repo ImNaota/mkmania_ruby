@@ -88,7 +88,7 @@ a{
 h1{
     text-align: center;
 }
-
+/*
 input, textarea{
     background-color: #0038FF;
     opacity: 10%;
@@ -96,6 +96,17 @@ input, textarea{
     border-radius: 15px;
     padding: 2%;
     margin-top:1%;
+    margin-bottom: 3%;
+    color: black;
+    font-size: 15px;
+}*/
+
+input, textarea {
+    background-color: rgba(0, 56, 255, 0.1);
+    border: 1px solid #0038FF;
+    border-radius: 15px;
+    padding: 2%;
+    margin-top: 1%;
     margin-bottom: 3%;
     color: black;
     font-size: 15px;
