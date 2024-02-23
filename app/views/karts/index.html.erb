@@ -7,6 +7,8 @@
 <h2>Vous avez encore des doutes sur le choix de votre véhicule sur Mario Kart ? Aucun problème ! Mkmania est la réponse à tout vos problèmes existentiels.</h2>
 </div>
 
+<p class="liens_ruby"><%= link_to "Nouveau kart", new_kart_path %></p>
+
 <div id="karts">
  <% @karts.each do |kart| %>
   <div class="voiture">
@@ -21,4 +23,3 @@
 <% end %>
 </div>
 
-<p class="liens_ruby"><%= link_to "Nouveau kart", new_kart_path %></p>
