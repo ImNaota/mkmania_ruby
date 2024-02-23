@@ -13,9 +13,9 @@
  <% @karts.each do |kart| %>
   <div class="voiture">
   <%= render kart %>
-  <%= link_to "Show this kart", kart %>
+  <p class="liens_ruby"><%= link_to "Show this kart", kart %></p>
   </div>
 <% end %>
 </div>
 
-<%= link_to "New kart", new_kart_path %>
+<p class="liens_ruby"><%= link_to "New kart", new_kart_path %></p>

@@ -81,10 +81,13 @@ footer p{
   }
 
 a{
-    text-align: center;
-    padding: 3%;
-    background-color:chartreuse;
+    padding: 5px;
+    background-color: chartreuse;
     text-decoration: none;
     border: 2px solid rgb(75, 147, 2);
-  border-radius: 3px; 
+    border-radius: 15px;
   }
+
+.liens_ruby{
+    text-align: center;
+}
