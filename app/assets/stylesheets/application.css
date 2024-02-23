@@ -104,10 +104,14 @@ h1{
     text-align: center;
 }
 
-input{
+input, textarea{
     background-color: #0038FF;
-    opacity: 20%;
+    opacity: 50%;
     border: #0038FF;
     border-radius: 15px;
-    margin: 5%;
+    padding: 5%;
+}
+
+form{
+    text-align: center;
 }
