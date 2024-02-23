@@ -10,7 +10,12 @@
 <div id="karts">
  <% @karts.each do |kart| %>
   <div class="voiture">
-  <%= render kart %>
+    <p>
+    <img src="<%= kart.image %>" class="kart_image">
+    </p>
+    <p>
+    <%= kart.size %>
+    </p>
   <p class="liens_ruby"><%= link_to "Voir ce kart", kart %></p>
   </div>
 <% end %>

@@ -124,13 +124,16 @@ form{
 
 .show_shpoink{
     display: flex;
+    width: 75%;
+    justify-content: center;
+    margin: auto;
 }
 
 .show_desc{
     display: flex;
     justify-content: center;
     width: 80%;
-    margin: 10%;
+    margin: 5%;
 }
 
 .kart_image{
