@@ -51,7 +51,7 @@ footer p{
 
 #karts{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 20px;
     padding: 20px;
 
@@ -68,8 +68,10 @@ footer p{
     width: 100%;
     height: auto;
     border: 1px solid #ccc;
+    padding: 0 !important;
   }
   
 #karts p {
     margin: 0;
+    padding: 10px;
   }
