@@ -65,7 +65,10 @@ footer p{
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10%;
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
   
 #karts img {
@@ -82,9 +85,9 @@ footer p{
 
 a{
     padding: 5px;
-    background-color: chartreuse;
+    background-color: #0038FF;
     text-decoration: none;
-    border: 2px solid rgb(75, 147, 2);
+    border: 2px solid #001b7b;
     border-radius: 15px;
   }
 
